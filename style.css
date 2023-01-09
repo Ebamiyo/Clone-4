@@ -99,7 +99,7 @@ form {
 .top_bar_child-4_child {
     display: flex;
     align-items: center;
-    gap: 5px;
+    /* gap: 5px; */
     padding-bottom: 0.7rem;
 }
 
@@ -111,10 +111,13 @@ form {
    color: rgb(26,115,232);
 }
 
-.more {
-    margin-left: 2px;
+/* .more {
+    /* margin-left: 2px; */
+    border: red solid 2px;
 }
-
+.more_icon {
+    border: red solid 2px;
+} */
 .tools {
     padding-left: 250px;
 }
@@ -213,6 +216,9 @@ form {
     display: flex;
 }
 
+.video-image:hover {
+    cursor: pointer;
+}
 .third_section_seconddiv_firstdiv {
     background-color: white;
     width: 39%;
@@ -252,6 +258,7 @@ form {
     font-size: 14px;
     color: rgb(32,33,36);
     font-size: 700;
+    text-align: left;
 }
 
 .youtube_p3 {
@@ -316,4 +323,24 @@ form {
 .insta_writeup {
     font-size: 14px;
     color: rgb(32,33,36)
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.button-icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 0.7rem;
+}
+button:hover {
+    cursor:pointer;
+}
+#more-button {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.7rem;
 }
